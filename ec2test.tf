@@ -3,8 +3,6 @@ resource "aws_instance" "nginxserver" {
   instance_type = "t2.micro"
   key_name      = "mykey"
 
-  tags = {
-    Name = "orange1"
-  }
+
 
 }
